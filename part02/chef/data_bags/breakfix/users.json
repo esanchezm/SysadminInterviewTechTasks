@@ -1,0 +1,32 @@
+{
+  "name": "data_bag_item_breakfix_users",
+  "json_class": "Chef::DataBagItem",
+  "chef_type": "data_bag_item",
+  "data_bag": "breakfix",
+  "raw_data": {
+    "id": "users",
+
+    "users": {
+      "problemz": {
+        "home": "/home/problemz",
+        "uid": 1002,
+        "gid": "problemz",
+        "shell": "/bin/bash"
+      },
+      "someadmin": {
+        "home": "/home/someadmin",
+        "uid": 1003,
+        "gid": "someadmin",
+        "shell": "/bin/bash"
+      }
+    },
+    "groups": {
+      "problemz": {
+        "gid": 1002
+      },
+      "someadmin": {
+        "gid": 1003
+      }
+    }
+  }
+}

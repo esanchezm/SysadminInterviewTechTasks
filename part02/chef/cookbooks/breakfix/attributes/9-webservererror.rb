@@ -1,0 +1,1 @@
+default['9-webservererror']['root'] = "/usr/share/scenario9/"

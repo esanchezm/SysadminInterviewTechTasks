@@ -1,0 +1,29 @@
+{
+  "name": "breakfix",
+  "description": "breakfix",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "breakfix": {
+      "scenarios": [
+        "2-mysql",
+        "3-problemz",
+        //"4-fullmount",
+        "5-fullbutspace",
+        "6-sudo",
+        "7-brokenraid",
+        //"8-savetheserver",
+        "9-webservererror",
+        "1-ping"
+      ]
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [],
+  "env_run_lists": {
+    "_default": [
+      "recipe[breakfix::default]"
+    ]
+  }
+}
