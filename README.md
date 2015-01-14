@@ -57,7 +57,7 @@ _Please refrain from inspecting the chef cookbooks to find how the machine was b
 ###Problems to fix
 
 1. Unable to ping www.google.com  
-2. Unable to successfully run the command `mysql < /tmp/world.sql` without altering the world.sql file itself  
+2. Unable to successfully run the command `mysql < /tmp/world.sql`  
 3. The user _problemz_ cannot write to the file _/home/problemz/tasks.txt_  
 4. The disk mounted at _/mnt/saysfullbutnot_ cannot be written to despite claiming to have space available  
 5. The user _someadmin_ cannot sudo up to root  
