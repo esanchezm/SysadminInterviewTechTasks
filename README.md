@@ -52,7 +52,7 @@ We estimate this should take you about half an hour to 1 hour to complete. Do no
 _Please refrain from inspecting the chef cookbooks to find how the machine was broken until after you have attempted the solutions. You'll only be cheating yourself._
   
 1. Either detail your steps in a **STEPS.md** file, or using custom scripts or config management tools write the corrective measures needed for each problem  
-2. Commit this new markdown file/script(s)/config management configs and open a PR with these files  
+2. Commit this new markdown file/script(s)/config management configs, and email us a link to it. Please **don't** open a pull request with your solutions, so that others cannot use it for reference later on  
   
 ###Problems to fix
 
