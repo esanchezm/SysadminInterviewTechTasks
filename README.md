@@ -61,5 +61,5 @@ _Please refrain from inspecting the chef cookbooks to find how the machine was b
 3. The user _problemz_ cannot write to the file _/home/problemz/tasks.txt_  
 4. The disk mounted at _/mnt/saysfullbutnot_ cannot be written to despite claiming to have space available  
 5. The user _someadmin_ cannot sudo up to root  
-6. The software raid array under /dev/mda is reporting an error  
+6. The software raid array under /dev/md0 is reporting an error  
 7. A server error is produced when loading [http://172.16.2.12](http://172.16.2.12)
