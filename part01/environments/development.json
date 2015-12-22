@@ -1,0 +1,12 @@
+{
+  "name": "development",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "json_class": "Chef::Environment",
+  "description": "Development environment",
+  "cookbook_versions": {
+  },
+  "chef_type": "environment"
+}

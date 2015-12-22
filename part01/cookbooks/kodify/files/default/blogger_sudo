@@ -1,0 +1,3 @@
+# Aloow blogger user to run /etc/init.d/hostname
+# but I noticed that file doesn't exist so it has no real effect
+blogger ALL=(ALL) NOPASSWD: /etc/init.d/hostname
