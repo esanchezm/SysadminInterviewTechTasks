@@ -3,6 +3,14 @@ user 'blogger' do
   home '/home/blogger'
   shell '/bin/bash'
   password '$6$RySwrvQT$RGtqkHtZy3VY5tYQLWIYl/SQma1u6UX1yK1MpdTBjkcWqtJzrJOriyfu2.qM.SeNPFcYvpf7jigkgEgdFQtJy/'
+  action :create
+end
+
+directory '/home/blogger' do
+  owner 'blogger'
+  group 'blogger'
+  mode '0755'
+  action :create
 end
 
 cookbook_file "/etc/sudoers.d/blogger" do
