@@ -2,7 +2,6 @@ package "apache2"
 
 disabled_modules = [
     "autoindex",
-    "dir",
     "status",
 ]
 
